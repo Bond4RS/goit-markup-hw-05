@@ -54,17 +54,23 @@
           ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
+
+        <!-- Модальное окно -->
         <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vel ducimus consequuntur, tempora et quae quos labore excepturi nemo tempore natus tenetur, eum ab totam omnis aliquam officia, incidunt pariatur.
             </p>
-            <button data-modal-close>Закрыть</button>
+            <button class="button cross" data-modal-close>
+              <svg class="icon-cross" width="11" height="11"> 
+                <use href="./images/icons.svg#icon-cross"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
 </section>
+
       <!-- Наши преимущества -->
      <section class="section"> <div class="container"> 
         <h2 class="sectionn-title visually-hidden">Наши преимущества</h2>
@@ -112,14 +118,23 @@
       <section class="section works-section">
                 <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-                    <ul class="list works">
-                        <li class="item">
+                    <ul class="list-works">
+                        <li class="item-works">
+                          <div class="name-work">
+                            <h3 class="section-title works">десктопные приложения</h3>
+                          </div>
                             <img src="./images/img1.jpeg" alt="верстка сайта" width="370" />
                         </li>
-                        <li class="item">
+                        <li class="item-works">
+                           <div class="name-work">
+                            <h3 class="section-title works">мобильные приложения</h3>
+                          </div>
                             <img src="./images/img2.jpeg" alt="адаптация сайта" width="370" />
                         </li>
-                        <li class="item">
+                        <li class="item-works">
+                           <div class="name-work">
+                            <h3 class="section-title works">дизайнерские решения</h3>
+                          </div>
                             <img src="./images/img3.jpeg" alt="выбор цвета оформление" width="370" />
                         </li>
                     </ul>
